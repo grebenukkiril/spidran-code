@@ -1,0 +1,77 @@
+
+@import "mixin";
+
+body{
+    font-family: Montserrat;
+    color: #212112;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    color: #212112;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, li, menu, p {
+    margin: 0;
+    padding: 0;
+}
+button{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border: none;
+}
+.container {
+    width: 1200px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.title-section {
+    margin-bottom: 45px;
+    &__box {
+        @include display-flex ($gap: none, $justifi-content: center, $align-items: center);
+        flex-direction: column;
+        .decoration-title {
+            color: #333;
+            font-family: Kaushan Script;
+            font-size: 24px;
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+        .title {
+            color: #333;
+            text-transform: uppercase;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            font-variant: small-caps;
+        }
+        .title--big {
+            font-size: 30px;
+            font-weight: 700;
+            font-variant: all-small-caps;
+            padding-bottom: 38px;
+        }
+        .decoration-bloc {
+            width: 60px;
+            height: 4px;
+            flex-shrink: 0;
+            background: #F38181;
+        }
+    }
+}
+
+
+

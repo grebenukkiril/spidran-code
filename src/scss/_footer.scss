@@ -1,0 +1,55 @@
+@import "mixin";
+
+.footer {
+    &__inner{
+        padding: 10px 0;
+        font-family: Montserrat;
+        @include display-flex;
+        border-top: 1px solid #B6B6B6;;
+        .first-box {
+            .footer-text {
+                color: #333;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 400;
+                .footer-colortext {
+                    color: #F38181;
+                }
+            }
+        }
+        .last-box {
+            .form {
+                display: flex;
+                gap: 0;
+                #form__imput{
+                    width: 230px;
+                    height: 39px;
+                    flex-shrink: 0;
+                    stroke-width: 1px;
+                    stroke: #B6B6B6;
+                    color: #B6B6B6;
+                    padding: 12px 0 11px 10px;
+                    font-family: Roboto;
+                    font-style: italic;
+                    font-weight: 300;
+                }
+                &__button {
+                    width: 150px;
+                    height: 40px;
+                    background: #95E1D3;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    font-variant: all-small-caps;
+                    text-transform: uppercase;
+                    border-radius: 3px;
+                    transition-duration: 1000ms;
+                    &:hover{
+                        background: #04f8cb;
+                    }
+                }
+            }
+        }
+    }
+}

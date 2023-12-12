@@ -1,0 +1,229 @@
+body {
+  font-family: Montserrat;
+  color: #212112;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: #212112;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li, menu, p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+.title-section {
+  margin-bottom: 45px;
+}
+.title-section__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  flex-direction: column;
+}
+.title-section__box .decoration-title {
+  color: #333;
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.title-section__box .title {
+  color: #333;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+.title-section__box .title--big {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  padding-bottom: 38px;
+}
+.title-section__box .decoration-bloc {
+  width: 60px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #F38181;
+}
+
+.header {
+  margin-bottom: 81px;
+  margin-top: 17px;
+}
+.header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+}
+.header .header-inner .logo-box__img {
+  width: 98px;
+  height: 33px;
+}
+.header .header-inner .menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+.header .header-inner .menu__link {
+  color: #95E1D3;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  padding-bottom: 10px;
+}
+.header .header-inner .menu__link:hover {
+  color: #F38181;
+  border-bottom: solid 3px;
+}
+
+.chapter-two {
+  margin-bottom: 100px;
+}
+.chapter-two .services-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 105px;
+  flex-direction: column;
+}
+.chapter-two .services-box__top-box, .chapter-two .services-box__bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.chapter-two .item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 330px;
+}
+.chapter-two .item-box__content-box__text {
+  color: #B6B6B6;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.chapter-four {
+  margin-bottom: 80px;
+}
+.chapter-four .team-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 27px;
+  flex-direction: column;
+}
+.chapter-four .team-box__item {
+  text-align: center;
+}
+.chapter-four .team-box__image {
+  padding-bottom: 30px;
+}
+.chapter-four .team-box__title {
+  padding-bottom: 11px;
+}
+.chapter-four .team-box__text {
+  color: #B6B6B6;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+}
+.chapter-four .team-box__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer__inner {
+  padding: 10px 0;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+  border-top: 1px solid #B6B6B6;
+}
+.footer__inner .first-box .footer-text {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer__inner .first-box .footer-text .footer-colortext {
+  color: #F38181;
+}
+.footer__inner .last-box .form {
+  display: flex;
+  gap: 0;
+}
+.footer__inner .last-box .form #form__imput {
+  width: 230px;
+  height: 39px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #B6B6B6;
+  color: #B6B6B6;
+  padding: 12px 0 11px 10px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+}
+.footer__inner .last-box .form__button {
+  width: 150px;
+  height: 40px;
+  background: #95E1D3;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition-duration: 1000ms;
+}
+.footer__inner .last-box .form__button:hover {
+  background: #04f8cb;
+}

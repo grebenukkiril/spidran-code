@@ -1,0 +1,29 @@
+@import "mixin";
+
+.chapter-two {
+    margin-bottom: 100px;
+    .services-box {
+        @include display-flex ($gap: 105px);
+        flex-direction: column;
+        &__top-box {
+            @include display-flex ($gap: 70px);
+        }
+        &__bottom-box {
+            @extend .services-box__top-box;
+        }
+    }
+    .item-box {
+        @include display-flex ($gap: 20px, $align-items: flex-start);
+        width: 330px;
+        &__content-box {
+            &__text{
+                color: #B6B6B6;
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 22px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
